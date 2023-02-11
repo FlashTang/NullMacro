@@ -1,0 +1,301 @@
+[{
+	access: [AStatic]
+	doc: null
+	kind: FFun({
+		args: []
+		expr: {
+			expr: EBlock([{
+				expr: EVars([{
+					expr: {
+						expr: EObjectDecl([{
+							expr: {
+								expr: EBlock([])
+								pos: #pos
+							}
+							field: b
+							quotes: Unquoted
+						}])
+						pos: #pos
+					}
+					isFinal: false
+					meta: []
+					name: a
+					type: TPath({
+						name: Dynamic
+						pack: []
+						params: []
+						sub: null
+					})
+				}])
+				pos: #pos
+			}, {
+				expr: EBlock([{
+					expr: EIf({
+						expr: EBinop(OpNotEq, {
+							expr: EConst(CIdent(a))
+							pos: #pos
+						}, {
+							expr: EConst(CIdent(null))
+							pos: #pos
+						})
+						pos: #pos
+					}, {
+						expr: EBlock([{
+							expr: EBlock([{
+								expr: EIf({
+									expr: EBinop(OpNotEq, {
+										expr: EField({
+											expr: EConst(CIdent(a))
+											pos: #pos
+										}, b)
+										pos: #pos
+									}, {
+										expr: EConst(CIdent(null))
+										pos: #pos
+									})
+									pos: #pos
+								}, {
+									expr: EBlock([{
+										expr: EBlock([{
+											expr: EIf({
+												expr: EBinop(OpNotEq, {
+													expr: EField({
+														expr: EField({
+															expr: EConst(CIdent(a))
+															pos: #pos
+														}, b)
+														pos: #pos
+													}, c)
+													pos: #pos
+												}, {
+													expr: EConst(CIdent(null))
+													pos: #pos
+												})
+												pos: #pos
+											}, {
+												expr: EBlock([{
+													expr: EBlock([{
+														expr: EIf({
+															expr: EBinop(OpNotEq, {
+																expr: EField({
+																	expr: EField({
+																		expr: EField({
+																			expr: EConst(CIdent(a))
+																			pos: #pos
+																		}, b)
+																		pos: #pos
+																	}, c)
+																	pos: #pos
+																}, d)
+																pos: #pos
+															}, {
+																expr: EConst(CIdent(null))
+																pos: #pos
+															})
+															pos: #pos
+														}, {
+															expr: EBlock([{
+																expr: null <- expected value
+																pos: #pos
+															}])
+															pos: #pos
+														}, null)
+														pos: #pos
+													}])
+													pos: #pos
+												}])
+												pos: #pos
+											}, null)
+											pos: #pos
+										}])
+										pos: #pos
+									}])
+									pos: #pos
+								}, null)
+								pos: #pos
+							}])
+							pos: #pos
+						}])
+						pos: #pos
+					}, null)
+					pos: #pos
+				}])
+				pos: #pos
+			}, {
+				expr: EBlock([{
+					expr: EIf({
+						expr: EBinop(OpNotEq, {
+							expr: EConst(CIdent(a))
+							pos: #pos
+						}, {
+							expr: EConst(CIdent(null))
+							pos: #pos
+						})
+						pos: #pos
+					}, {
+						expr: EBlock([{
+							expr: EBlock([{
+								expr: EIf({
+									expr: EBinop(OpNotEq, {
+										expr: EField({
+											expr: EConst(CIdent(a))
+											pos: #pos
+										}, b)
+										pos: #pos
+									}, {
+										expr: EConst(CIdent(null))
+										pos: #pos
+									})
+									pos: #pos
+								}, {
+									expr: EBlock([{
+										expr: EBlock([{
+											expr: EIf({
+												expr: EBinop(OpNotEq, {
+													expr: EField({
+														expr: EField({
+															expr: EConst(CIdent(a))
+															pos: #pos
+														}, b)
+														pos: #pos
+													}, c)
+													pos: #pos
+												}, {
+													expr: EConst(CIdent(null))
+													pos: #pos
+												})
+												pos: #pos
+											}, {
+												expr: EBlock([{
+													expr: EBlock([{
+														expr: EIf({
+															expr: EBinop(OpNotEq, {
+																expr: EField({
+																	expr: EField({
+																		expr: EField({
+																			expr: EConst(CIdent(a))
+																			pos: #pos
+																		}, b)
+																		pos: #pos
+																	}, c)
+																	pos: #pos
+																}, d)
+																pos: #pos
+															}, {
+																expr: EConst(CIdent(null))
+																pos: #pos
+															})
+															pos: #pos
+														}, {
+															expr: EBlock([{
+																expr: EBlock([{
+																	expr: EIf({
+																		expr: EBinop(OpNotEq, {
+																			expr: EField({
+																				expr: EField({
+																					expr: EField({
+																						expr: EField({
+																							expr: EConst(CIdent(a))
+																							pos: #pos
+																						}, b)
+																						pos: #pos
+																					}, c)
+																					pos: #pos
+																				}, d)
+																				pos: #pos
+																			}, a)
+																			pos: #pos
+																		}, {
+																			expr: EConst(CIdent(null))
+																			pos: #pos
+																		})
+																		pos: #pos
+																	}, {
+																		expr: EBlock([{
+																			expr: null <- expected value
+																			pos: #pos
+																		}])
+																		pos: #pos
+																	}, null)
+																	pos: #pos
+																}])
+																pos: #pos
+															}])
+															pos: #pos
+														}, null)
+														pos: #pos
+													}])
+													pos: #pos
+												}])
+												pos: #pos
+											}, null)
+											pos: #pos
+										}])
+										pos: #pos
+									}])
+									pos: #pos
+								}, null)
+								pos: #pos
+							}])
+							pos: #pos
+						}])
+						pos: #pos
+					}, null)
+					pos: #pos
+				}])
+				pos: #pos
+			}, {
+				expr: EBlock([{
+					expr: EIf({
+						expr: EBinop(OpNotEq, {
+							expr: EConst(CIdent(a))
+							pos: #pos
+						}, {
+							expr: EConst(CIdent(null))
+							pos: #pos
+						})
+						pos: #pos
+					}, {
+						expr: EBlock([{
+							expr: EBlock([{
+								expr: EIf({
+									expr: EBinop(OpNotEq, {
+										expr: EField({
+											expr: EConst(CIdent(a))
+											pos: #pos
+										}, b)
+										pos: #pos
+									}, {
+										expr: EConst(CIdent(null))
+										pos: #pos
+									})
+									pos: #pos
+								}, {
+									expr: EBlock([{
+										expr: null <- expected value
+										pos: #pos
+									}])
+									pos: #pos
+								}, null)
+								pos: #pos
+							}])
+							pos: #pos
+						}])
+						pos: #pos
+					}, null)
+					pos: #pos
+				}])
+				pos: #pos
+			}])
+			pos: #pos
+		}
+		params: []
+		ret: null
+	})
+	meta: []
+	name: main
+	pos: #pos
+}]
+line 98: expected value
+line 215: expected value
+line 275: expected value
